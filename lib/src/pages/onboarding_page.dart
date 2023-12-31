@@ -1,8 +1,8 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:librecamera/src/pages/camera_page.dart';
-import 'package:librecamera/src/utils/preferences.dart';
+import 'package:truthshot/src/pages/camera_page.dart';
+import 'package:truthshot/src/utils/preferences.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';

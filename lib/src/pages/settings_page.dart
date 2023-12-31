@@ -2,13 +2,13 @@ import 'package:camera/camera.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:librecamera/l10n/l10n.dart';
-import 'package:librecamera/src/pages/onboarding_page.dart';
-import 'package:librecamera/src/provider/locale_provider.dart';
-import 'package:librecamera/src/provider/theme_provider.dart';
-import 'package:librecamera/src/utils/preferences.dart';
-import 'package:librecamera/src/widgets/format.dart';
-import 'package:librecamera/src/widgets/resolution.dart';
+import 'package:truthshot/l10n/l10n.dart';
+import 'package:truthshot/src/pages/onboarding_page.dart';
+import 'package:truthshot/src/provider/locale_provider.dart';
+import 'package:truthshot/src/provider/theme_provider.dart';
+import 'package:truthshot/src/utils/preferences.dart';
+import 'package:truthshot/src/widgets/format.dart';
+import 'package:truthshot/src/widgets/resolution.dart';
 
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -97,7 +97,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Widget _aboutListTile({String? version}) {
     void launchGitHubURL() async {
-      var url = Uri.parse('https://github.com/iakmds/librecamera');
+      var url = Uri.parse('https://github.com/iakmds/truthshot');
       if (await canLaunchUrl(url)) {
         await launchUrl(url, mode: LaunchMode.externalApplication);
       }
@@ -122,7 +122,7 @@ class _SettingsPageState extends State<SettingsPage> {
           icon: const Icon(Icons.open_in_new),
           onPressed: launchGitHubURL,
           label: SelectableText(
-            'https://github.com/iakmds/librecamera',
+            'https://github.com/iakmds/truthshot',
             style: const TextStyle(
               color: Colors.blue,
             ),

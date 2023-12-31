@@ -11,21 +11,21 @@ import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:librecamera/main.dart';
-import 'package:librecamera/src/widgets/format.dart';
-import 'package:librecamera/src/widgets/resolution.dart';
-import 'package:librecamera/src/widgets/timer.dart';
+import 'package:truthshot/main.dart';
+import 'package:truthshot/src/widgets/format.dart';
+import 'package:truthshot/src/widgets/resolution.dart';
+import 'package:truthshot/src/widgets/timer.dart';
 import 'package:native_device_orientation/native_device_orientation.dart';
 import 'package:permission_handler/permission_handler.dart';
 //import 'package:qr_code_scanner/qr_code_scanner.dart' as qr;
 import 'package:video_thumbnail/video_thumbnail.dart' as video_thumbnail;
 
-import 'package:librecamera/src/pages/settings_page.dart';
-import 'package:librecamera/src/utils/preferences.dart';
-import 'package:librecamera/src/widgets/exposure.dart';
-import 'package:librecamera/src/widgets/flash.dart';
-import 'package:librecamera/src/widgets/focus.dart';
-import 'package:librecamera/src/widgets/capture_control.dart';
+import 'package:truthshot/src/pages/settings_page.dart';
+import 'package:truthshot/src/utils/preferences.dart';
+import 'package:truthshot/src/widgets/exposure.dart';
+import 'package:truthshot/src/widgets/flash.dart';
+import 'package:truthshot/src/widgets/focus.dart';
+import 'package:truthshot/src/widgets/capture_control.dart';
 
 /// Camera example home widget.
 class CameraPage extends StatefulWidget {
